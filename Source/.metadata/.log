@@ -3960,3 +3960,30 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-20 15:01:56.560
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-01-21 10:36:31.965 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-21 10:36:40.624
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-21 10:36:40.626
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-21 10:36:59.622
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-21 10:46:56.936
+!MESSAGE Indexed 'chapter5_example2' (19 sources, 81 headers) in 2.96 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-21 10:55:24.777
+!MESSAGE Indexed 'chapter5_example2' (19 sources, 81 headers) in 1.02 sec: 4,279 declarations; 17,909 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-21 10:57:34.521
+!MESSAGE Indexed 'chapter5_example3' (19 sources, 81 headers) in 3.22 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-21 11:03:56.873
+!MESSAGE Indexed 'chapter5_example3' (9 sources, 73 headers) in 0.702 sec: 4,336 declarations; 12,746 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
