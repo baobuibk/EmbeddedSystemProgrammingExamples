@@ -1,0 +1,11 @@
+D:/PROJECT/BOOK_EXAMPLE/Book_Example_Repos/Source/chapter9_example4/Src/MiddleWare/Common/ports/stm32f4xx/atomic.h:48:20:_io_try_lock	2
+D:/PROJECT/BOOK_EXAMPLE/Book_Example_Repos/Source/chapter9_example4/Src/MiddleWare/Common/ports/stm32f4xx/atomic.h:54:20:_io_unlock	1
+../Src/Driver/Devices/ds3234/ds3234.c:18:10:DS3234_Init	5
+../Src/Driver/Devices/ds3234/ds3234.c:41:10:DS3234_write_register	2
+../Src/Driver/Devices/ds3234/ds3234.c:56:10:DS3234_read_register	2
+../Src/Driver/Devices/ds3234/ds3234.c:78:6:DS3234_SetTime	3
+../Src/Driver/Devices/ds3234/ds3234.c:112:6:DS3234_GetTime	2
+../Src/Driver/Devices/ds3234/ds3234.c:149:6:DS3234_SetHourMode	2
+../Src/Driver/Devices/ds3234/ds3234.c:170:6:DS3234_SetOutputMode	2
+../Src/Driver/Devices/ds3234/ds3234.c:193:9:DS3234_DecToBCD	1
+../Src/Driver/Devices/ds3234/ds3234.c:203:9:DS3234_BCDToDec	1

@@ -1,0 +1,21 @@
+// STM32F407VG Discovery board platform description for Renode.
+//
+// This extends Renode's own bundled STM32F4 Discovery description (which wires
+// only the green user LED, LD4/PD12, and the user button, PA0) with the other
+// three on-board LEDs so all four match the real board:
+//   LD3 orange = PD13, LD4 green = PD12, LD5 red = PD14, LD6 blue = PD15
+//
+// See simulate/README.md for what is and isn't modeled (GPIO/USART/timers are
+// fully modeled; SPI/I2C are register-accurate controllers with no simulated
+// slave device; ADC is not modeled at all by the base platform).
+
+using "platforms/boards/stm32f4_discovery.repl"
+
+led_orange: Miscellaneous.LED @ gpioPortD
+led_red: Miscellaneous.LED @ gpioPortD
+led_blue: Miscellaneous.LED @ gpioPortD
+
+gpioPortD:
+    13 -> led_orange@0
+    14 -> led_red@0
+    15 -> led_blue@0

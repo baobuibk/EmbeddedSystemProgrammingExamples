@@ -1,0 +1,3 @@
+../Src/Driver/Components/dio/stm32/do.c:43:13:gpio_enable_clock	3
+../Src/Driver/Components/dio/stm32/do.c:52:6:do_set	6
+../Src/Driver/Components/dio/stm32/do.c:73:6:do_reset	6

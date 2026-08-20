@@ -1,0 +1,9 @@
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:834:26:LL_EXTI_IsActiveFlag_0_31	1
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:910:22:LL_EXTI_ClearFlag_0_31	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:56:6:bsp_rtc_init	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:66:6:bsp_rtc1_set_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:70:6:bsp_rtc1_get_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:74:6:bsp_rtc2_set_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:78:6:bsp_rtc2_get_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:86:6:bsp_rtc_RTC2_trigger_callback	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:91:6:EXTI0_IRQHandler	2

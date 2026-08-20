@@ -180,6 +180,10 @@ static void MX_USART1_UART_Init(void)
   GPIO_InitStruct.Alternate = LL_GPIO_AF_7;
   LL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
+  /* USART1 interrupt Init */
+  NVIC_SetPriority(USART1_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),15, 0));
+  NVIC_EnableIRQ(USART1_IRQn);
+
   /* USER CODE BEGIN USART1_Init 1 */
 
   /* USER CODE END USART1_Init 1 */
@@ -223,6 +227,7 @@ uint8_t USART_ReceiveData(USART_TypeDef *USARTx) {
     while (!LL_USART_IsActiveFlag_RXNE(USARTx));
 // Chờ RXNE sẵn sàng
     return LL_USART_ReceiveData8(USARTx);
+
 }
 
 /* USER CODE END 4 */

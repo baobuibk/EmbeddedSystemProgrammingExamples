@@ -1,0 +1,5 @@
+../Src/BSP/BSP_Led/bsp_led.c:28:6:bsp_led_init	1
+../Src/BSP/BSP_Led/bsp_led.c:35:6:bsp_led_on	5
+../Src/BSP/BSP_Led/bsp_led.c:53:6:bsp_led_off	5
+../Src/BSP/BSP_Led/bsp_led.c:71:6:bsp_led_toggle	5
+../Src/BSP/BSP_Led/bsp_led.c:89:6:bsp_led_green_toggle	1

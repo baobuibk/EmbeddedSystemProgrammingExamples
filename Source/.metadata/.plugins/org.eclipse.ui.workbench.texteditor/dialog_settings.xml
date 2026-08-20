@@ -3,6 +3,8 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="PendSV_Handler"/>
+		<item value="osKernelInitialize"/>
 		<item value="traceRETURN_vTaskStartScheduler"/>
 		<item value="xPortSysTickHandler"/>
 		<item value="hook"/>

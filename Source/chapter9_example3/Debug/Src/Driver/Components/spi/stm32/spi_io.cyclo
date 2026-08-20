@@ -1,0 +1,13 @@
+../Src/Driver/Components/spi/stm32/spi_io.c:35:37:spi_enable_clock	7
+../Src/Driver/Components/spi/stm32/spi_io.c:47:8:spi_io_is_busy	1
+../Src/Driver/Components/spi/stm32/spi_io.c:51:10:spi_io_transfer_sync	6
+../Src/Driver/Components/spi/stm32/spi_io.c:78:10:spi_io_read_sync	5
+../Src/Driver/Components/spi/stm32/spi_io.c:96:10:spi_io_write_sync	5
+../Src/Driver/Components/spi/stm32/spi_io.c:120:10:spi_io_read_async	1
+../Src/Driver/Components/spi/stm32/spi_io.c:126:10:spi_io_write_async	1
+../Src/Driver/Components/spi/stm32/spi_io.c:132:10:spi_io_transfer_async	1
+../Src/Driver/Components/spi/stm32/spi_io.c:138:10:spi_io_write_and_read_async	1
+../Src/Driver/Components/spi/stm32/spi_io.c:147:10:spi_io_read_dma	1
+../Src/Driver/Components/spi/stm32/spi_io.c:153:10:spi_io_write_dma	1
+../Src/Driver/Components/spi/stm32/spi_io.c:159:10:spi_io_transfer_dma	1
+../Src/Driver/Components/spi/stm32/spi_io.c:165:10:spi_io_write_and_read_dma	1

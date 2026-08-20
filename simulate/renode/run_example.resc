@@ -1,0 +1,32 @@
+:name: STM32F407 Discovery - Book Example Runner
+:description: Boots a compiled .elf from this repo on a simulated STM32F407VG Discovery board.
+
+# Usage (run from the repository root, so the @-relative paths below resolve):
+#
+#   renode -e "$bin=@Source/<project>/Debug/<project>.elf; include @simulate/renode/run_example.resc"
+#
+# or use the wrapper scripts instead of typing this by hand:
+#
+#   simulate/scripts/run.sh <project>        (bash)
+#   simulate/scripts/run.ps1 <project>       (PowerShell)
+
+using sysbus
+
+$name ?= "stm32f407_discovery"
+$bin  ?= @Source/chapter9_example1/Debug/chapter9_example1.elf
+
+mach create $name
+machine LoadPlatformDescription @simulate/platforms/stm32f407_discovery.repl
+
+# Every chapter8+ example routes its debug console through USART1 by default
+# (see Src/BSP/board.h -> CONSOLE_USART under the STM32F4_DISCO #ifdef branch).
+# Override with `showAnalyzer sysbus.usart2` etc. if a specific example differs.
+showAnalyzer sysbus.usart1
+
+macro reset
+"""
+    sysbus LoadELF $bin
+"""
+runMacro $reset
+
+start

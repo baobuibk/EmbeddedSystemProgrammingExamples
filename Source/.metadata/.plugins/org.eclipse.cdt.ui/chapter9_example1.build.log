@@ -1,4 +1,4 @@
-11:07:16 **** Clean-only build of configuration Debug for project chapter9_example1 ****
+11:51:08 **** Clean-only build of configuration Debug for project chapter9_example1 ****
 make -j12 clean 
 rm -rf ./Src/MiddleWare/container/ring_buf.cyclo ./Src/MiddleWare/container/ring_buf.d ./Src/MiddleWare/container/ring_buf.o ./Src/MiddleWare/container/ring_buf.su
 rm -rf ./Src/MiddleWare/Console/console.cyclo ./Src/MiddleWare/Console/console.d ./Src/MiddleWare/Console/console.o ./Src/MiddleWare/Console/console.su
@@ -14,5 +14,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf chapter9_example1.elf chapter9_example1.hex chapter9_example1.list chapter9_example1.map default.size.stdout
  
 
-11:07:16 Build Finished. 0 errors, 0 warnings. (took 353ms)
+11:51:09 Build Finished. 0 errors, 0 warnings. (took 1s.93ms)
 

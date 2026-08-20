@@ -1,0 +1,5 @@
+../Src/MiddleWare/container/ring_buf.c:8:6:ring_buf_init	1
+../Src/MiddleWare/container/ring_buf.c:18:10:ring_buf_put	3
+../Src/MiddleWare/container/ring_buf.c:38:10:ring_buf_get	3
+../Src/MiddleWare/container/ring_buf.c:59:10:ring_buf_num_free	3
+../Src/MiddleWare/container/ring_buf.c:77:6:ring_buf_process_all	3

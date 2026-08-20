@@ -1,0 +1,8 @@
+../Drivers/CMSIS/Include/core_cm4.h:1672:26:__NVIC_GetPriorityGrouping	1
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	2
+../Drivers/CMSIS/Include/core_cm4.h:1861:26:NVIC_EncodePriority	2
+../Src/BSP/BSP_USART/bsp_uart.c:32:6:bsp_uart_console_init	1
+../Src/BSP/BSP_USART/bsp_uart.c:39:10:console_putchar	1
+../Src/BSP/BSP_USART/bsp_uart.c:47:10:console_getchar	1
+../Src/BSP/BSP_USART/bsp_uart.c:52:6:USART1_IRQHandler	1
