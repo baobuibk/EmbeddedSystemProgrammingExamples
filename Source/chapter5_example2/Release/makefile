@@ -52,6 +52,9 @@ default.size.stdout \
 OBJDUMP_LIST += \
 chapter5_example2.list \
 
+OBJCOPY_HEX += \
+chapter5_example2.hex \
+
 
 # All Target
 all: main-build
@@ -75,12 +78,17 @@ chapter5_example2.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEP
 	@echo 'Finished building: $@'
 	@echo ' '
 
+chapter5_example2.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "chapter5_example2.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) chapter5_example2.elf chapter5_example2.list chapter5_example2.map default.size.stdout
+	-$(RM) chapter5_example2.elf chapter5_example2.hex chapter5_example2.list chapter5_example2.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'

@@ -64,7 +64,7 @@ int main(void)
   MX_GPIO_Init();
   MX_DMA_Init();
   MX_USART2_UART_Init();
-  HAL_DMA
+
   /* USER CODE BEGIN 2 */
   /* USER CODE END 2 */
 

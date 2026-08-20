@@ -1,0 +1,5 @@
+../Src/Driver/Components/spi/spi_io.c:20:10:spi_io_init	4
+../Src/Driver/Components/spi/spi_io.c:37:10:spi_io_transfer_sync	6
+../Src/Driver/Components/spi/spi_io.c:55:10:spi_io_write_sync	1
+../Src/Driver/Components/spi/spi_io.c:59:10:spi_io_read_sync	1
+../Src/Driver/Components/spi/spi_io.c:63:10:spi_io_write_and_read_sync	10

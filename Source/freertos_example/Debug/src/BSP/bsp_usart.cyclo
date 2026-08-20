@@ -1,0 +1,5 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:2662:26:LL_USART_IsActiveFlag_TXE	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:3658:25:LL_USART_ReceiveData8	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:3681:22:LL_USART_TransmitData8	1
+../src/BSP/bsp_usart.c:16:6:_putchar	2
+../src/BSP/bsp_usart.c:31:6:USART1_RX_INT_Callback	2

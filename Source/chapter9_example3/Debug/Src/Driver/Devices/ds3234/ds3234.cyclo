@@ -1,0 +1,9 @@
+../Src/Driver/Devices/ds3234/ds3234.c:18:10:DS3234_Init	5
+../Src/Driver/Devices/ds3234/ds3234.c:41:10:DS3234_write_register	2
+../Src/Driver/Devices/ds3234/ds3234.c:55:10:DS3234_read_register	2
+../Src/Driver/Devices/ds3234/ds3234.c:76:6:DS3234_SetTime	3
+../Src/Driver/Devices/ds3234/ds3234.c:110:6:DS3234_GetTime	2
+../Src/Driver/Devices/ds3234/ds3234.c:147:6:DS3234_SetHourMode	2
+../Src/Driver/Devices/ds3234/ds3234.c:168:6:DS3234_SetOutputMode	2
+../Src/Driver/Devices/ds3234/ds3234.c:191:9:DS3234_DecToBCD	1
+../Src/Driver/Devices/ds3234/ds3234.c:201:9:DS3234_BCDToDec	1

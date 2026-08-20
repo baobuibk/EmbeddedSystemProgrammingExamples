@@ -1,0 +1,5 @@
+../Src/BSP/BSP_RTC/bsp_rtc.c:50:6:bsp_rtc_init	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:57:6:bsp_rtc1_set_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:61:6:bsp_rtc1_get_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:65:6:bsp_rtc2_set_time	1
+../Src/BSP/BSP_RTC/bsp_rtc.c:69:6:bsp_rtc2_get_time	1

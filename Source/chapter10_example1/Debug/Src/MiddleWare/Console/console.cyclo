@@ -1,0 +1,6 @@
+../Src/MiddleWare/Console/console.c:91:32:console_putchar	1
+../Src/MiddleWare/Console/console.c:112:32:console_getchar	1
+../Src/MiddleWare/Console/console.c:132:32:console_get_available_char	1
+../Src/MiddleWare/Console/console.c:153:10:console_write	3
+../Src/MiddleWare/Console/console.c:199:1:console_vprintf	28
+../Src/MiddleWare/Console/console.c:631:1:console_printf	1
